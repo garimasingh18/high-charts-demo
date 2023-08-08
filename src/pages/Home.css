@@ -1,0 +1,29 @@
+.dispaly-flex {
+  display: flex;
+}
+.home {
+  align-items: start;
+  flex-wrap: wrap;
+}
+.home div {
+  font-size: 1.25rem;
+  width: 19rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 2rem;
+  opacity: 0.75;
+  box-shadow: rgba(255, 255, 255, 0.06) 0px 2px 4px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.home div:hover {
+  opacity: 1;
+  box-shadow: rgba(255, 255, 255, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+.home div > p {
+  font-size: 0.75rem;
+}
+.home div > img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
