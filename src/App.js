@@ -18,6 +18,9 @@ function App() {
         onSelect={(selectedKey) => console.log(`selected ${selectedKey}`)}
       >
         <Nav.Item>
+          <Nav.Link href="/">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link href="/bubble">Bubble</Nav.Link>
         </Nav.Item>
 
