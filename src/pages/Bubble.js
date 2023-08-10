@@ -11,11 +11,31 @@ function Bubble() {
   const options = {
     chart: {
       type: "packedbubble",
+      backgroundColor: "#000",
       height: "100%",
+      style: {
+        color: "#fff",
+        font: 'bold 16px "Quicksand"',
+      },
     },
     title: {
       text: "Carbon emissions around the world (2014)",
       align: "left",
+      style: {
+        color: "#fff",
+        font: 'bold 16px "Quicksand"',
+      },
+    },
+    legend: {
+      itemStyle: {
+        color: "#A0A0A0",
+      },
+      itemHoverStyle: {
+        color: "#FFF",
+      },
+      itemHiddenStyle: {
+        color: "#444",
+      },
     },
     tooltip: {
       useHTML: true,
@@ -40,9 +60,9 @@ function Bubble() {
             value: 250,
           },
           style: {
-            color: "black",
             textOutline: "none",
             fontWeight: "normal",
+            color: "#fff",
           },
         },
       },

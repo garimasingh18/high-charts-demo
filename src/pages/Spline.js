@@ -8,6 +8,7 @@ function Spline() {
     // Data retrieved from https://www.vikjavev.no/ver/#2022-06-13,2022-06-14
     chart: {
       type: "spline",
+      backgroundColor: "#000",
       scrollablePlotArea: {
         minWidth: 600,
         scrollPositionX: 1,
@@ -16,21 +17,34 @@ function Spline() {
     title: {
       text: "Wind speed during two days",
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
     subtitle: {
       text: "13th & 14th of June, 2022 at two locations in Vik i Sogn, Norway",
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
     xAxis: {
       type: "datetime",
       labels: {
         overflow: "justify",
+        style: {
+          color: "#fff",
+        },
       },
     },
     yAxis: {
       title: {
         text: "Wind speed (m/s)",
+        style: {
+          color: "#fff",
+        },
       },
+
       minorGridLineWidth: 0,
       gridLineWidth: 0,
       alternateGridColor: null,
@@ -43,7 +57,7 @@ function Spline() {
           label: {
             text: "Light air",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -55,7 +69,7 @@ function Spline() {
           label: {
             text: "Light breeze",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -67,7 +81,7 @@ function Spline() {
           label: {
             text: "Gentle breeze",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -79,7 +93,7 @@ function Spline() {
           label: {
             text: "Moderate breeze",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -91,7 +105,7 @@ function Spline() {
           label: {
             text: "Fresh breeze",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -103,7 +117,7 @@ function Spline() {
           label: {
             text: "Strong breeze",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -115,7 +129,7 @@ function Spline() {
           label: {
             text: "High wind",
             style: {
-              color: "#606060",
+              color: "#fff",
             },
           },
         },
@@ -134,6 +148,9 @@ function Spline() {
         },
         marker: {
           enabled: false,
+        },
+        style: {
+          color: "#fff",
         },
         pointInterval: 3600000, // one hour
         pointStart: Date.UTC(2022, 5, 13, 0, 0, 0),
@@ -158,6 +175,9 @@ function Spline() {
     navigation: {
       menuItemStyle: {
         fontSize: "10px",
+        style: {
+          color: "#fff",
+        },
       },
     },
   };

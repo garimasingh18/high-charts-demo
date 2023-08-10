@@ -5,19 +5,32 @@ import HighchartsReact from "highcharts-react-official";
 
 function Line() {
   const options = {
+    chart: {
+      backgroundColor: "#000",
+      color: "#fff",
+    },
     title: {
       text: "U.S Solar Employment Growth",
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
 
     subtitle: {
       text: 'By Job Category. Source: <a href="https://irecusa.org/programs/solar-jobs-census/" target="_blank">IREC</a>.',
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
 
     yAxis: {
       title: {
         text: "Number of Employees",
+        style: {
+          color: "#fff",
+        },
       },
     },
 

@@ -2,7 +2,7 @@ import React from "react";
 
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import mapDataAsia from "./utils/mapDataAsia";
+import mapDataAsia from "./../utils/mapDataAsia";
 // Load Highcharts modules
 require("highcharts/modules/map")(Highcharts);
 
@@ -64,8 +64,15 @@ function Map() {
   ];
 
   const mapOptions = {
+    chart: {
+      backgroundColor: "#000",
+      color: "#fff",
+    },
     title: {
       text: "Map",
+      style: {
+        color: "#fff",
+      },
     },
     colorAxis: {
       min: 0,

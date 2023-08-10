@@ -8,14 +8,21 @@ function Pie() {
     // Create the chart
     chart: {
       type: "pie",
+      backgroundColor: "#000",
     },
     title: {
       text: "Browser market shares. January, 2022",
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
     subtitle: {
       text: 'Click the slices to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>',
       align: "left",
+      style: {
+        color: "#fff",
+      },
     },
 
     accessibility: {

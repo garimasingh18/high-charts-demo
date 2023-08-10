@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap");
 body {
   background-color: #000;
   color: #fff;
+  font-family: "Quicksand";
 }
 a {
   color: #fff;
